@@ -1,4 +1,4 @@
-# vocbench-docker
+# vocbench v3 Docker image
 
 To build the image run
 ```
