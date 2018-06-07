@@ -17,6 +17,6 @@ RUN cd ~ && wget https://bitbucket.org/art-uniroma2/vocbench3/downloads/vocbench
 
 EXPOSE 1979
 
-ENTRYPOINT ["/start.sh"]
+COPY ./it.uniroma2.art.semanticturkey.cfg /home/username/semanticturkey-3.0/etc/it.uniroma2.art.semanticturkey.cfg
 
-VOLUME ["/root/SemanticTurkeyData"]
+ENTRYPOINT ["/start.sh"]
